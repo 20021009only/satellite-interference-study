@@ -1,0 +1,6 @@
+filename = 'D:\CYGNSS_L1_v32\2021\2021.01\2021.01.01\cyg01.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc';
+ant = ncread(filename, 'ddm_ant');
+fprintf('ddm_ant 唯一值：'); disp(unique(ant(:))');
+fprintf('ddm_ant 数据类型：%s\n', class(ant));
+fprintf('ddm_ant 前20个值：'); disp(ant(1:20)');
+ddm_ant 唯一值：     2     3 ddm_ant 数据类型：double ddm_ant 前20个值：     2      2      2      2      2      2      2      2      2      2      2      2      2      2      2      2      2      2      2      2

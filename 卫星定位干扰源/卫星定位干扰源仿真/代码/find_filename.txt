@@ -1,0 +1,4 @@
+% 第一步：找真实文件名
+d = dir('D:\CYGNSS_L1_v32\2021\2021.01\2021.01.01\*.nc');
+disp({d.name}')
+    {'cyg01.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}     {'cyg02.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}     {'cyg03.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}     {'cyg05.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}     {'cyg06.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}     {'cyg07.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}     {'cyg08.ddmi.s20210101-000000-e20210101-235959.l1.power-brcs.a32.d33.nc'}
